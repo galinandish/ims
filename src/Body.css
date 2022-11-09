@@ -1,0 +1,72 @@
+.home_body
+{
+    display: flexbox;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+
+
+.Profile
+{   
+   
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+
+.Viewattendence
+{
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.ManageStudentRegistration
+{
+   margin-top: 2%;
+    margin-left: 5%;
+}
+
+
+.institutionalCalender
+{
+   margin-top: 2%;
+    margin-left: 5%;
+}
+
+.SemesterResults
+{
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.Instructions
+{
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.institutionalholidays
+{
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.Examtimetable
+{
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.SyllabusSubjectView
+{
+
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.alerts
+{
+    margin-top: 2%;
+    margin-left: 5%;
+}

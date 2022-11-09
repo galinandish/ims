@@ -1,0 +1,144 @@
+body
+{
+    background:white;
+    font-family: 'poppis',sans-serif;
+}
+
+#form
+{
+    width: 25%;
+    margin: 10%;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+ 
+    background-color:rgba(27,31,36,0.1);
+    font-size: 12px;
+    border-radius: 15px;
+    box-shadow: 0 0.188em 1.550em rgb(156, 156, 156) ;
+    align-items: center;
+    display:flexbox;
+    justify-content: space-around;
+    
+    
+
+
+    
+ 
+}
+
+#form button
+{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    padding: 5px;
+    width: 80%;
+    height: 2em;
+    margin-left:32px ;
+    color: black;
+    background-color: #4be437;
+   border-radius: 8px;
+   border:none;
+   padding-bottom: 5px;
+   cursor: pointer;
+   display:flex;
+   justify-content: center;
+   transform: 10s;
+   
+}
+
+.input-ctrl 
+{
+    align-items:center;
+
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    margin-left:20px;
+}
+
+.input-ctrl input
+{  
+    transform: 10s;
+    width: 65%;
+    border-radius: 9px;
+    padding:2%;
+    border:none;
+
+}
+
+
+#form h1
+{
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+    
+}
+
+a
+{
+    text-align: right;
+    size: 0.1px;
+    margin-top: 0;
+    margin-bottom: none;
+    float: right;
+    right: 0 !important;
+    top: 0 !important;
+  
+    
+}
+
+#form button:hover 
+{
+    transform: scale(1.13);
+}
+
+.frt-pass
+{
+    padding: 20px;
+    margin-right: 80px;
+    color:#0969da;
+    text-decoration: none;
+    transform: 10s;
+}
+    
+.frt-pass:hover
+{
+    transform: scale(1.13);
+}
+
+.icons 
+{
+   display: inline-flex;
+   color: black;
+   padding-top: 20px;
+}
+
+.ins-icon a
+{
+    padding-right: 10px;
+    color: black;
+}
+
+
+.fb-icon a
+{
+    padding-left: 10px;
+    color: black;
+}
+
+
+
+.ins-icon a:hover
+{
+    transform: scale(1.2);
+    color: blue;
+}
+
+.fb-icon a:hover
+{
+    transform: scale(1.2);
+    color: blue;
+}
