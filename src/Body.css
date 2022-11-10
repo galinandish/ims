@@ -10,63 +10,122 @@
 .Profile
 {   
    
-    margin-top: 2%;
+    margin-top: 4%;
+    margin-left: 5%;
+}
+
+
+.MyDashboard
+{
+    margin-top: 4%;
+    margin-left: 5%;
+}
+
+.Events
+{
+    margin-top: 4%;
+    margin-left: 5%;
+}
+
+
+.Notice
+{
+    margin-top: 4%;
+    margin-left: 5%;
+}
+
+
+.MyCalender
+{
+    margin-top: 4%;
     margin-left: 5%;
 }
 
 
 .Viewattendence
 {
-    margin-top: 2%;
+    margin-top: 4%;
     margin-left: 5%;
 }
 
 .ManageStudentRegistration
 {
-   margin-top: 2%;
+   margin-top: 4%;
     margin-left: 5%;
 }
 
 
 .institutionalCalender
 {
-   margin-top: 2%;
+   margin-top: 4%;
     margin-left: 5%;
 }
 
 .SemesterResults
 {
-    margin-top: 2%;
+    margin-top: 4%;
+    margin-left: 5%;
+}
+
+
+.ViewPerformanceDetails
+{
+    margin-top: 4%;
+    margin-left: 5%;
+}
+
+.AssignmentDetails
+{
+    margin-top: 4%;
     margin-left: 5%;
 }
 
 .Instructions
 {
-    margin-top: 2%;
+    margin-top: 4%;
+    margin-left: 5%;
+}
+
+.Downloads
+{
+    margin-top: 4%;
+    margin-left: 5%;
+}
+
+.PhotoGallery
+{
+    margin-top: 4%;
     margin-left: 5%;
 }
 
 .institutionalholidays
 {
-    margin-top: 2%;
+    margin-top: 4%;
     margin-left: 5%;
 }
 
 .Examtimetable
 {
-    margin-top: 2%;
+    margin-top: 4%;
+    margin-left: 5%;
+}
+
+
+.TimeTable
+{
+    margin-top: 4%;
     margin-left: 5%;
 }
 
 .SyllabusSubjectView
 {
 
-    margin-top: 2%;
+    margin-top: 4%;
     margin-left: 5%;
 }
 
 .alerts
 {
-    margin-top: 2%;
+    margin-top: 4%;
     margin-left: 5%;
 }
