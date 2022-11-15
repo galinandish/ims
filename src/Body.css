@@ -1,13 +1,16 @@
 .home_body
 {
-    display: flexbox;
+    display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: white;
+
   
 }
 
 
 .Profile
+
 {   
    
     margin-top: 4%;
@@ -128,4 +131,9 @@
 {
     margin-top: 4%;
     margin-left: 5%;
+}
+
+.home_body_icons
+{
+    background: white;
 }
