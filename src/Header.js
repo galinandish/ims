@@ -12,7 +12,7 @@ function Header() {
     return (
         <div className="header">
           <div className="header_right">
-            <Avatar className="header_right_logo" alt="kushal" src="/static/images/avatar/1.jpg" sx={{ width: 30, height: 30 }} />
+            <Avatar className="header_right_logo" alt="kan" src="/static/images/avatar/1.jpg" sx={{ width: 30, height: 30 }} />
           </div>
    
                 

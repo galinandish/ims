@@ -1,6 +1,6 @@
-body
+*
 {
-    background:white;
+    background:#eaeef2;
     font-family: 'poppis',sans-serif;
 }
 
@@ -8,64 +8,67 @@ body
 {
     width: 25%;
     margin: 10%;
-    margin-left: 35%;
+    margin-left: 37.3%;
     margin-right: 35%;
-    padding-top: 5%;
+    padding-top: 3%;
     padding-bottom: 5%;
- 
-    background-color:rgba(27,31,36,0.1);
+    background-color:  #ffff !important;;
     font-size: 12px;
     border-radius: 15px;
     box-shadow: 0 0.188em 1.550em rgb(156, 156, 156) ;
     align-items: center;
-    display:flexbox;
+    display:flex;
+    flex-direction: column;
     justify-content: space-around;
+    margin-top: 5%;
     
-    
-
-
-    
- 
+}
+#form img
+{
+    margin-left: 0%;
+    margin-bottom: 5px;;
 }
 
 #form button
 {
     margin-top: 20px;
     margin-bottom: 5px;
-    padding: 5px;
+    padding:3%;
     width: 80%;
     height: 2em;
-    margin-left:32px ;
+    margin-left:0% ;
     color: black;
     background-color: #4be437;
    border-radius: 8px;
    border:none;
-   padding-bottom: 5px;
+   padding-bottom: 24px;
    cursor: pointer;
    display:flex;
    justify-content: center;
-   transform: 10s;
+   font-size: 15px;  
    
 }
 
 .input-ctrl 
 {
-    align-items:center;
-
     display: flex;
-    width: 100%;
-    padding: 10px;
-    margin-left:20px;
+    align-items:center;
+    display: flex;
+    width: 80%;
+    padding: 20px;
+    margin-left:35px;
+    background-color: #ffff !important;
+    padding-top:3%;
+    border: none;
 }
-
 .input-ctrl input
 {  
     transform: 10s;
     width: 65%;
     border-radius: 9px;
     padding:2%;
-    border:none;
-
+    background: #ffff !important;
+    border: none;
 }
 
 
@@ -74,34 +77,32 @@ body
     font-size: 24px;
     font-weight: 300;
     letter-spacing: -0.5px;
+    color: black;
+    padding-bottom: 8%;
+    background-color: #ffff !important;
+    padding-top: 2%
     
 }
 
-a
-{
-    text-align: right;
-    size: 0.1px;
-    margin-top: 0;
-    margin-bottom: none;
-    float: right;
-    right: 0 !important;
-    top: 0 !important;
-  
-    
-}
 
-#form button:hover 
-{
-    transform: scale(1.13);
-}
+
 
 .frt-pass
 {
-    padding: 20px;
-    margin-right: 80px;
+
     color:#0969da;
     text-decoration: none;
     transform: 10s;
+    align-items: center !important;
+    right: 0 !important;
+    top: 0 !important;
+    background-color: #ffff !important;
+    size: 0.1px;
+    margin-top: 0;
+    margin-bottom: none;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
 }
     
 .frt-pass:hover
@@ -109,36 +110,83 @@ a
     transform: scale(1.13);
 }
 
-.icons 
+.icons
 {
-   display: inline-flex;
-   color: black;
-   padding-top: 20px;
+    display: flex;
+    flex-flow: row-reverse;
+    padding-top: 1% !important;
+    padding-left: 5% !important;
+    padding-right: 2%;
 }
 
-.ins-icon a
+.ins-icon  a 
 {
-    padding-right: 10px;
-    color: black;
+    margin-left: 10% !important;
+    margin-right: 10%;
+    color: rgb(229, 89, 119);
 }
-
 
 .fb-icon a
 {
-    padding-left: 10px;
+    margin-left: 10% !important;
+    margin-right: 10%!important;
+    color:blue;
+}
+
+.lkdin-icon a
+{
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    color: rgb(59, 59, 196); 
+}
+
+.git a
+{
+    margin-left: 1% !important;
+    margin-right: 10% !important;
     color: black;
 }
-
-
-
-.ins-icon a:hover
+.username
 {
-    transform: scale(1.2);
-    color: blue;
+    background-color: #ffff;
 }
 
-.fb-icon a:hover
+.password
 {
-    transform: scale(1.2);
-    color: blue;
+    box-shadow: none;
+    background-color: #ffff;
+}
+h1
+{
+    display: flex;
+}
+
+
+
+
+
+.ins-icon  
+{
+    margin-left: 0.1%;
+    margin-right: 0.50%;
+}
+
+.fb-icon 
+{
+    margin-left: 0.1% ;
+    margin-right: 0.50%;
+}
+
+.lkdin-icon 
+{
+    margin-left: 0.1% ;
+    margin-right: 0.50% ;
+    
+}
+
+.git 
+{
+    margin-left: 0.1% ;
+    margin-right: 0.40% ;
+    
 }
